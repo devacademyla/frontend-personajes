@@ -3,7 +3,7 @@ body {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 960px;
 }
 header {
   background-color: #6b097d;
@@ -54,4 +54,33 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-size: 1em;
+}
+
+.personaje-informacion img {
+  float: left;
+  margin-right: 2em;
+}
+.personaje-informacion h1 {
+  background-color: white;
+  color: #6b097d;
+  font-size: 2em;
+}
+.personaje-informacion .logo {
+  float: right;
+  margin-right: 0;
+  width: 300px;
+}
+p {
+  font-weight: 300;
+  margin-top: 0;
+}
+
+h4 {
+  color: #6b097d;
+  margin-bottom: 0;
+  margin-top: .5em;
+}
+.biografia {
+  height: 100px;
+  overflow-y: scroll;
 }
