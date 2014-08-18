@@ -1,0 +1,57 @@
+body {
+  color: #404040;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+header {
+  background-color: #6b097d;
+  height: 50px;
+}
+div.celeste {
+  background-color: #22bab6;
+  height: 5px;
+}
+nav {
+  line-height: 50px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 1em;
+}
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+h2 {
+  background-color: #6b097d;
+  color: white;
+  font-weight: normal;
+  font-size: 1.3em;
+  margin: .5em 0;
+  padding: .2em .5em;
+}
+.personajes {
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 1em;
+}
+.personaje {
+  float: left;
+  margin-right: 5%;
+  text-align: center;
+  width: 30%;
+}
+.personaje img { width: 100%; }
+.personaje:nth-child(3n){ margin-right: 0; }
+h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+}
