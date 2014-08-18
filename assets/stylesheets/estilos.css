@@ -55,6 +55,18 @@ h3 {
   text-transform: uppercase;
   font-size: 1em;
 }
+div.triangulo {
+  position: absolute;
+  border: .7em solid #22bab6;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  top: 30px;
+  left: 320px;
+  width: 0;
+}
+
+
 
 .personaje-informacion img {
   float: left;
@@ -74,7 +86,6 @@ p {
   font-weight: 300;
   margin-top: 0;
 }
-
 h4 {
   color: #6b097d;
   margin-bottom: 0;
